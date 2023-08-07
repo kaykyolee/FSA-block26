@@ -19,7 +19,7 @@ useEffect (()=>{
           const resultContacts = await result.json();
           // console.log (resultContacts)
           setContacts(resultContacts)
-          console.log (contacts)
+        //   console.log (contacts)
      } catch (error){
           console.error(error);
      }
